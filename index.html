@@ -17,5 +17,28 @@
             </div>
         </div>
     </header>
+    <main class="container">
+        <div class="container_form">
+            <textarea  id="typed_text" cols="30" rows="10"></textarea>
+            <span>Apenas letras minúsculas e sem acento</span>
+            <form class="form_buttons">
+                <button id="encrypt" class="btn_encrypt">Criptografar</button>
+                <button id="descript" class="btn_decrypt">Descriptografar</button>
+                <button id="copy_result" class="btn_copy">Copiar</button>
+            </form>
+        </div>
+        <div id="encryption_result" class="observer">
+            <img src="assets/images/observer.svg" alt="">
+            <div class="observer_message">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que você deseja criptografar ou descriptografar</span>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <span>Desenvolvido por</span>
+        <a href="#" target="_blank">Robelio Barreto</a>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
