@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{text-decoration:none;}
+
+body{
+    height:100vh;
+}
+
+header {
+    display:flex;
+    justify-content:center;
+    height:80px;
+    background-color:#0099ff;
+}
+
+.container {
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+header .container .logo {
+    display:flex;
+    align-items:center;
+    margin-left:60px;
+}
+
+header .container .text {
+    display:flex;
+    align-items: center;
+    margin-right:60px;
+    color:#ffffff;
+    text-transform:uppercase;
+    font-size:24px;
+}
