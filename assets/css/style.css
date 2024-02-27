@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 * {
     margin:0;
     padding:0;
@@ -8,6 +10,8 @@ a{text-decoration:none;}
 
 body{
     height:100vh;
+    background-color:#f1f1f1;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -21,6 +25,7 @@ header {
     display:flex;
     justify-content:space-between;
     width:100%;
+    flex-wrap: wrap;
 }
 
 header .container .logo {
@@ -62,6 +67,12 @@ header .container .text {
     text-transform:uppercase;
 }
 
+.container_form #typed_text {
+    text-transform:lowercase;
+    font-size:24px;
+    font-weight:400;
+}
+
 .container_form span {
     margin-left:10%;
     margin-bottom:5%;
@@ -78,7 +89,7 @@ header .container .text {
     width:180px;
     height:60px;
     color: #ffffff;
-    font-size:16px;
+    font-size:20px;
     border-radius: 10px;
     outline: none;
     border: 0;
@@ -89,7 +100,7 @@ header .container .text {
     background-color:#3174da;
 }
 
-.form_buttons .btn_decrypt{
+.form_buttons .btn_descrypt{
    margin-left: 24px; 
 }
 
@@ -116,7 +127,7 @@ header .container .text {
 .observer .observer_message {
     margin: 0 auto;
     width:364px;
-    height:122px;
+    height:200px;
     border: 1px solid #c5c5c5;
     margin-top:50px;
     text-align:center;
@@ -128,7 +139,8 @@ header .container .text {
 }
 
 .observer .observer_message span {
-    font-size:20px;
+    font-weight:400;
+    font-size:24px;
     color:#000;
 }
 
@@ -139,7 +151,7 @@ header .container .text {
     align-items: center;
     width: 100%;
     height:10vh;
-    background:#026E81;
+    background:#023047;
     color:#ffffff;
     font-size:16px;
 }
@@ -150,4 +162,9 @@ header .container .text {
     color: #fff;
     font-weight: bold;
     font-size:20px;
+}
+
+.rodape a {
+    color:#ffffff;
+    font-size:16px;
 }
