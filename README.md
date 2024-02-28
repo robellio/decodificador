@@ -6,8 +6,8 @@
 
 ## Veja alguns exemplos:
 <ol>
-    <li>Se a palavra digitada for <strong>bebe</strong>a resposta será: <strong>benterbenter</strong></li>
-    <li>Se a palavra digitada for <strong>banana</strong>a resposta será: <strong>bainainai</strong></li>
+    <li>Se a palavra digitada for <strong>bebe</strong> a resposta será: <strong>benterbenter</strong></li>
+    <li>Se a palavra digitada for <strong>banana</strong> a resposta será: <strong>bainainai</strong></li>
 </ol>
 
 ## Regras
