@@ -26,4 +26,4 @@
 
 ### Para fazer o teste  é só acessar a página da aplicação:
 
- <a href="https://robellio.github.io/decodificador/">Visitar página</a>
+ <a href="https://robellio.github.io/decodificador/" target="_blank">Visitar página</a>
