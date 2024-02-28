@@ -282,3 +282,67 @@ header .container .text {
         font-size:16px;
     }
 }
+ 
+@media only screen and (min-width: 360px) and (max-width: 639px){
+    header {
+        height:auto;
+        padding:14px;
+    }
+    header .container .logo{
+        margin: 0 auto;
+    }
+    header .container .text {
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top:10px;
+    }
+     .container_form textarea {
+        width:80%;
+        height:60%;
+    }
+    .container_form textarea::placeholder {
+        font-size:20px;
+    }
+
+    .container_form span {
+        margin-left:10%;
+    }
+   .form_buttons {
+        flex-direction:column;
+    }
+     .form_buttons .btn_encrypt {
+        margin-left:30%;
+    }
+     .form_buttons .btn_descrypt {
+        margin-left:30%;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .form_buttons .btn_copy {
+        margin-left:30%;
+    }
+    .container {
+        display:flex;
+        justify-content:center;
+    }
+    .container .observer{
+        width: 255px;
+        margin-left:0;
+        border:0;
+        height:auto;
+    }
+    .container .observer img {
+        display:none;
+    }
+    .observer_message {
+       margin-left:5px;
+        width:120px;
+        height:100px; 
+    }
+    .observer .observer_message h2 {
+        font-size:20px;
+    }
+    .observer .observer_message span {
+        font-size:20px;
+    }
+}
